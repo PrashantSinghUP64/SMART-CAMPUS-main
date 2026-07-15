@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static('public'));
+app.use(express.static(''));
 app.set('view engine', 'ejs');
 app.use(session({ secret: 'secret-key', resave: false, saveUninitialized: false }));
 
