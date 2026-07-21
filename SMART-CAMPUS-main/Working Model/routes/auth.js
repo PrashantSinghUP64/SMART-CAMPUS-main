@@ -34,4 +34,4 @@ router.post('/login', async (req, res) => {
     }
 });
 
-module.exports = ;
+module.exports = router;
